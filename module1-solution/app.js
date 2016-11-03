@@ -1,0 +1,1 @@
+!function(){"use strict";function e(e){e.dishes="Koftay",e.message="Enjoy",e.checkDishes=function(){var s=e.dishes;if(""!=s){var n=s.split(","),o=0;for(var c in n)""!=n[c].trim()&&o++;o>3?e.message=" Too Much":e.message="Enjoy"}else e.message="Please enter data first"}}angular.module("LunchCheck",[]).controller("LunchCheckController",e),e.$inject=["$scope"]}();
